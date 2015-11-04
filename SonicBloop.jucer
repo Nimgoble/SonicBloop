@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="vWNxPZ" name="SonicBloop" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.nimgoble.SonicBloop" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0" defines="_CRT_SECURE_NO_WARNINGS">
+  <MAINGROUP id="waKBlY" name="SonicBloop">
+    <GROUP id="{523E7D85-CE5B-93CE-E993-F69C11B21863}" name="libuiohook">
+      <FILE id="iaHuel" name="config.h" compile="0" resource="0" file="libuiohook/config.h"/>
+      <FILE id="eNAqdj" name="copyright.h" compile="0" resource="0" file="libuiohook/copyright.h"/>
+      <FILE id="Xtb83p" name="input_helper.cpp" compile="1" resource="0"
+            file="libuiohook/input_helper.cpp"/>
+      <FILE id="ck62a0" name="input_helper.h" compile="0" resource="0" file="libuiohook/input_helper.h"/>
+      <FILE id="H3M8eo" name="input_hook.cpp" compile="1" resource="0" file="libuiohook/input_hook.cpp"/>
+      <FILE id="FG9MFm" name="logger.cpp" compile="1" resource="0" file="libuiohook/logger.cpp"/>
+      <FILE id="pPx3Ya" name="logger.h" compile="0" resource="0" file="libuiohook/logger.h"/>
+      <FILE id="cnU4qo" name="post_event.cpp" compile="1" resource="0" file="libuiohook/post_event.cpp"/>
+      <FILE id="pq7DkV" name="system_properties.cpp" compile="1" resource="0"
+            file="libuiohook/system_properties.cpp"/>
+      <FILE id="WBC2WI" name="uiohook.h" compile="0" resource="0" file="libuiohook/uiohook.h"/>
+    </GROUP>
+    <GROUP id="{08530887-925B-3120-F9D8-1D32D0D651A9}" name="Source">
+      <FILE id="oeOa8W" name="ApplicationSettingsFile.cpp" compile="1" resource="0"
+            file="Source/ApplicationSettingsFile.cpp"/>
+      <FILE id="dMkP1O" name="ApplicationSettingsFile.h" compile="0" resource="0"
+            file="Source/ApplicationSettingsFile.h"/>
+      <FILE id="Z35ant" name="ChangeKeyButton.cpp" compile="1" resource="0"
+            file="Source/ChangeKeyButton.cpp"/>
+      <FILE id="e2smgm" name="ChangeKeyButton.h" compile="0" resource="0"
+            file="Source/ChangeKeyButton.h"/>
+      <FILE id="oXEzR2" name="GlobalHooksHooker.cpp" compile="1" resource="0"
+            file="Source/GlobalHooksHooker.cpp"/>
+      <FILE id="MfUFyY" name="GlobalHooksHooker.h" compile="0" resource="0"
+            file="Source/GlobalHooksHooker.h"/>
+      <FILE id="D9dfc4" name="GlobalHooksListener.h" compile="0" resource="0"
+            file="Source/GlobalHooksListener.h"/>
+      <FILE id="N95mgv" name="GlobalHooksManager.cpp" compile="1" resource="0"
+            file="Source/GlobalHooksManager.cpp"/>
+      <FILE id="Ont3jX" name="GlobalHooksManager.h" compile="0" resource="0"
+            file="Source/GlobalHooksManager.h"/>
+      <FILE id="kQQnsk" name="GlobalHooksThread.cpp" compile="1" resource="0"
+            file="Source/GlobalHooksThread.cpp"/>
+      <FILE id="nbRNsW" name="GlobalHooksThread.h" compile="0" resource="0"
+            file="Source/GlobalHooksThread.h"/>
+      <FILE id="LhoHEq" name="IKeyPressCollectionContainer.h" compile="0"
+            resource="0" file="Source/IKeyPressCollectionContainer.h"/>
+      <FILE id="WxM164" name="KeyMappingList.cpp" compile="1" resource="0"
+            file="Source/KeyMappingList.cpp"/>
+      <FILE id="yVrJR1" name="KeyMappingList.h" compile="0" resource="0"
+            file="Source/KeyMappingList.h"/>
+      <FILE id="N1qh5a" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="j3v6Zs" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+      <FILE id="L3fWXn" name="SettingsTabComponent.cpp" compile="1" resource="0"
+            file="Source/SettingsTabComponent.cpp"/>
+      <FILE id="qvS9bt" name="SettingsTabComponent.h" compile="0" resource="0"
+            file="Source/SettingsTabComponent.h"/>
+      <FILE id="BmqsGD" name="SoundFileDragAndDropTarget.cpp" compile="1"
+            resource="0" file="Source/SoundFileDragAndDropTarget.cpp"/>
+      <FILE id="GzomfD" name="SoundFileDragAndDropTarget.h" compile="0" resource="0"
+            file="Source/SoundFileDragAndDropTarget.h"/>
+      <FILE id="vh06CO" name="SoundHotKeyConfigFile.cpp" compile="1" resource="0"
+            file="Source/SoundHotKeyConfigFile.cpp"/>
+      <FILE id="VcrnCz" name="SoundHotKeyConfigFile.h" compile="0" resource="0"
+            file="Source/SoundHotKeyConfigFile.h"/>
+      <FILE id="acrvjG" name="SoundHotKeyInfo.cpp" compile="1" resource="0"
+            file="Source/SoundHotKeyInfo.cpp"/>
+      <FILE id="Fh3Zrh" name="SoundHotKeyInfo.h" compile="0" resource="0"
+            file="Source/SoundHotKeyInfo.h"/>
+      <FILE id="cgZF8u" name="SoundHotKeyInfoContainer.cpp" compile="1" resource="0"
+            file="Source/SoundHotKeyInfoContainer.cpp"/>
+      <FILE id="n4qb3B" name="SoundHotKeyInfoContainer.h" compile="0" resource="0"
+            file="Source/SoundHotKeyInfoContainer.h"/>
+      <FILE id="OAJ0up" name="SoundHotKeyView.cpp" compile="1" resource="0"
+            file="Source/SoundHotKeyView.cpp"/>
+      <FILE id="hHG6Mx" name="SoundHotKeyView.h" compile="0" resource="0"
+            file="Source/SoundHotKeyView.h"/>
+      <FILE id="ckJFmG" name="SoundInfoOperationsListener.h" compile="0"
+            resource="0" file="Source/SoundInfoOperationsListener.h"/>
+      <FILE id="lzhnUS" name="SoundsTabComponent.cpp" compile="1" resource="0"
+            file="Source/SoundsTabComponent.cpp"/>
+      <FILE id="E8odI4" name="SoundsTabComponent.h" compile="0" resource="0"
+            file="Source/SoundsTabComponent.h"/>
+      <FILE id="bSFfkw" name="TabsContainerComponent.cpp" compile="1" resource="0"
+            file="Source/TabsContainerComponent.cpp"/>
+      <FILE id="BBfVN1" name="TabsContainerComponent.h" compile="0" resource="0"
+            file="Source/TabsContainerComponent.h"/>
+      <FILE id="Xgbtkg" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="ljvCFI" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="Ds7lMP" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SonicBloop"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="SonicBloop"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_cryptography" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_video" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_opengl" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="E:\Programming\GitHub\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="E:\Programming\GitHub\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2013>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
